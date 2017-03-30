@@ -12,12 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-__title__ = 'regalias'
-__author__ = 'Letla Fox'
-__license__ = 'Apache 2.0'
-__copyright__ = 'Copyright 2017 Letla Fox'
-
-from .about import __version__
+from .about import *
 
 from .generate_japanese_alias import generate_japanese_alias
 from .generate_japanese_alias_from_rng import generate_japanese_alias_from_rng

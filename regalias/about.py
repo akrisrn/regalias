@@ -12,4 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+__title__ = 'regalias'
 __version__ = '0.1.0'
+__author__ = 'Letla Fox'
+__license__ = 'Apache 2.0'
+__copyright__ = 'Copyright 2017 Letla Fox'
