@@ -51,7 +51,7 @@ optional arguments:
 Special thanks to [Noa (aka Rfish)](http://ylvania.org) for giving license to use Elona's ndata in this project.
 
 
-### :gem: Author
+### :panda_face: Author
 
 | [![Letla Fox](https://github.com/letla.png?size=96)](https://www.letla.net) |
 |:---:|
