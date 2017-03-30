@@ -30,7 +30,7 @@ $ regalias エヘカトル
 ```
 
 
-### :shell: Usage
+### :gem: Usage
 
 ```sh
 usage: regalias [-h] [--version] [name]
