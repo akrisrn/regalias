@@ -14,7 +14,7 @@
 
 import random
 
-from .ndata import ndata
+from ._ndata import ndata
 
 
 def generate_japanese_alias(str_or_rng=None):
