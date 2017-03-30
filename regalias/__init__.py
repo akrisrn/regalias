@@ -17,7 +17,7 @@ __author__ = 'Letla Fox'
 __license__ = 'Apache 2.0'
 __copyright__ = 'Copyright 2017 Letla Fox'
 
-from ._version import __version__
+from .about import __version__
 
 from .generate_japanese_alias import generate_japanese_alias
 from .generate_japanese_alias_from_rng import generate_japanese_alias_from_rng
