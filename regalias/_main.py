@@ -14,13 +14,13 @@
 
 from argparse import ArgumentParser
 
-from .about import __version__, __description__
+from .about import __title__, __version__, __description__
 from .generate_japanese_alias import generate_japanese_alias
 
 
 def run_main():
   argparser = ArgumentParser(
-      prog='regalias',
+      prog=__title__,
       description=__description__,
       allow_abbrev=False)
   argparser.add_argument(
