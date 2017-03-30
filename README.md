@@ -1,6 +1,4 @@
-# Regalias
-
-Regalias is an [Elona](http://ylvania.org/elona)-like Alias Generator.
+# Regalias: [Elona](http://ylvania.org/elona)-like Alias Generator
 
 :jp: Currently, it only supports to generate Japanese aliases.
 
