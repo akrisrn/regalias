@@ -30,7 +30,7 @@ $ regalias エヘカトル
 ```
 
 
-### :fish_cake: Usage
+### :shell: Usage
 
 ```sh
 usage: regalias [-h] [--version] [name]
