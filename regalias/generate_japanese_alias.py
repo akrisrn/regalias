@@ -12,6 +12,19 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from .generate_japanese_alias import generate_japanese_alias
+from random import Random
+
 from .generate_japanese_alias_from_rng import generate_japanese_alias_from_rng
 from .generate_japanese_alias_from_str import generate_japanese_alias_from_str
+
+
+def generate_japanese_alias(str_or_rng=None):
+  if str_or_rng is None:
+    rng = Random()
+    return generate_japanese_alias_from_rng(rng)
+  elif isinstance(str_or_rng, str):
+    str_ = str_or_rng
+    return generate_japanese_alias_from_str(str_)
+  else:  # isinstance(str_or_rng, Random)
+    rng = str_or_rng
+    return generate_japanese_alias_from_rng(rng)
