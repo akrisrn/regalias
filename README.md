@@ -8,7 +8,7 @@ Regalias is an [Elona](http://ylvania.org/elona)-like Alias Generator.
 
 ```sh
 $ regalias  # 引数を渡さずに実行すると...
-王国の記憶  # 異名をランダム生成します
+王国の記憶  # 異名をランダムに生成します
 
 $ regalias
 結末の水平線  # != 王国の記憶
