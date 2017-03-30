@@ -14,6 +14,7 @@
 
 __title__ = 'regalias'
 __author__ = 'Letla Fox'
+__license__ = 'Apache 2.0'
 __copyright__ = 'Copyright 2017 Letla Fox'
 
 from ._version import __version__
