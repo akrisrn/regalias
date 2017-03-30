@@ -12,6 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+__title__ = 'regalias'
 __author__ = 'Letla Fox'
 
 from ._version import __version__
