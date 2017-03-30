@@ -1,4 +1,4 @@
-# Regalias: [Elona](http://ylvania.org/elona)-like Alias Generator
+# Regalias: [Elona](http://ylvania.org/elona)-like alias generator
 
 :jp: Currently, it only supports to generate Japanese aliases.
 
