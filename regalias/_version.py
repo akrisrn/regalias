@@ -12,10 +12,4 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-__author__ = 'Letla Fox'
-
-from ._version import __version__
-
-from .generate_japanese_alias import generate_japanese_alias
-from .generate_japanese_alias_from_rng import generate_japanese_alias_from_rng
-from .generate_japanese_alias_from_str import generate_japanese_alias_from_str
+__version__ = '0.1.0'
