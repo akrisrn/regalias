@@ -14,14 +14,14 @@
 
 from argparse import ArgumentParser
 
-from .about import __version__
+from .about import __version__, __description__
 from .generate_japanese_alias import generate_japanese_alias
 
 
 def run_main():
   argparser = ArgumentParser(
       prog='regalias',
-      description='Elona-like alias generator',
+      description=__description__,
       allow_abbrev=False)
   argparser.add_argument(
       '--version',
