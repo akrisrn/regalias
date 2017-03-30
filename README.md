@@ -30,7 +30,7 @@ $ regalias エヘカトル
 ```
 
 
-### Usage
+### :gem: Usage
 
 ```sh
 usage: regalias [-h] [--version] [name]
@@ -46,18 +46,18 @@ optional arguments:
 ```
 
 
-### Thanks
+### :gem: Thanks
 
 Special thanks to [Noa (aka Rfish)](http://ylvania.org) for giving license to use Elona's ndata in this project.
 
 
-### Author
+### :gem: Author
 
 | [![Letla Fox](https://github.com/letla.png?size=96)](https://www.letla.net) |
 |:---:|
 | [Letla Fox](https://www.letla.net) |
 
 
-### License
+### :gem: License
 
 Apache License 2.0
