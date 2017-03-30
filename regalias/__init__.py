@@ -13,6 +13,7 @@
 # limitations under the License.
 
 __author__ = 'Letla Fox'
+__version__ = '0.1.0'
 
 from .generate_japanese_alias import generate_japanese_alias
 from .generate_japanese_alias_from_rng import generate_japanese_alias_from_rng
