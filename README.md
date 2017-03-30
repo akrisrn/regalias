@@ -35,7 +35,7 @@ $ regalias エヘカトル
 ```sh
 usage: regalias [-h] [--version] [name]
 
-Elonalike Alias Generator
+Elona-like alias generator
 
 positional arguments:
   name        seed of alias
