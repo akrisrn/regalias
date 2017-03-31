@@ -1,6 +1,6 @@
 # Regalias: [Elona](http://ylvania.org/elona)-like alias generator
 
-[![PyPI](https://img.shields.io/pypi/v/regalias.svg?style=flat-square)]()
+[![PyPI](https://img.shields.io/pypi/v/regalias.svg?style=flat-square)](https://pypi.python.org/pypi/regalias)
 
 :jp: Currently, it only supports to generate Japanese aliases.
 
