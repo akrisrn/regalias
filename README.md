@@ -30,6 +30,15 @@ $ regalias エヘカトル
 ```
 
 
+### :gem: Installation
+
+Installation is easy, with pip:
+
+```sh
+$ pip3 install regalias
+```
+
+
 ### :gem: Usage
 
 ```sh
