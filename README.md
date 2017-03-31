@@ -1,4 +1,4 @@
-# Regalias: [Elona](http://ylvania.org/elona)-like alias generator
+# Regalias: [Elona](http://ylvania.org/elona)-like alias generator for Python, with CLI.
 
 [![PyPI](https://img.shields.io/pypi/wheel/regalias.svg?style=flat-square)](https://pypi.python.org/pypi/regalias)
 [![PyPI](https://img.shields.io/pypi/pyversions/regalias.svg?style=flat-square)](https://pypi.python.org/pypi/regalias)
