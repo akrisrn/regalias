@@ -5,6 +5,7 @@
 [![PyPI](https://img.shields.io/pypi/l/regalias.svg?style=flat-square)](https://github.com/letla/regalias/blob/master/LICENSE.txt)
 [![PyPI](https://img.shields.io/pypi/implementation/regalias.svg?style=flat-square)](https://pypi.python.org/pypi/regalias)
 [![PyPI](https://img.shields.io/pypi/v/regalias.svg?style=flat-square)](https://pypi.python.org/pypi/regalias)
+[![Twitter](https://img.shields.io/badge/twitter-@letlafox-55acee.svg?style=flat-square)](https://twitter.com/letlafox)
 
 :jp: Currently, it only supports to generate Japanese aliases.
 
