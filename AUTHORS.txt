@@ -7,5 +7,5 @@
 #     Name or Organization
 # Email addresses for individuals are tracked elsewhere to avoid spam.
 
-Letla Fox <https://github.com/letla> <https://letla.net>
+Letla Fox <https://github.com/letla> <https://www.letla.net>
 
