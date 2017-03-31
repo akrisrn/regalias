@@ -1,5 +1,6 @@
 # Regalias: [Elona](http://ylvania.org/elona)-like alias generator
 
+[![PyPI](https://img.shields.io/pypi/implementation/regalias.svg?style=flat-square)]()
 [![PyPI](https://img.shields.io/pypi/pyversions/regalias.svg?style=flat-square)]()
 [![PyPI](https://img.shields.io/pypi/wheel/regalias.svg?style=flat-square)]()
 [![PyPI](https://img.shields.io/pypi/l/regalias.svg?style=flat-square)](https://github.com/letla/regalias/blob/master/LICENSE.txt)
