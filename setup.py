@@ -21,7 +21,7 @@ setup(
     url='https://github.com/letla/regalias',
     packages=['regalias'],
     entry_points={
-        'console_scripts': ['regalias=regalias._main:main'],
+        'console_scripts': ['regalias=regalias.__main__:main'],
     },
     license=about['__license__'],
     classifiers=[
