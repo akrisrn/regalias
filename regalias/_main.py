@@ -36,3 +36,7 @@ def main():
     print(alias, args.name)
   else:
     print(alias)
+
+
+if __name__ == '__main__':
+  main()
