@@ -22,7 +22,7 @@ def run_main():
   argparser = ArgumentParser(
       prog=__title__,
       description=__description__,
-      allow_abbrev=False)
+      allow_abbrev=False)  # yapf: disable
   argparser.add_argument(
       '--version',
       action='version',
