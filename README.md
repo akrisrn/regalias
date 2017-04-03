@@ -51,7 +51,7 @@ $ pip3 install regalias
 ```sh
 usage: regalias [-h] [--version] [name]
 
-Elona-like alias generator
+Elona-like alias generator for Python, with CLI.
 
 positional arguments:
   name        seed of alias
