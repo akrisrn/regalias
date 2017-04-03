@@ -18,7 +18,7 @@ from .about import __title__, __version__, __description__
 from .generate_japanese_alias import generate_japanese_alias
 
 
-def run_main():
+def main():
   argparser = ArgumentParser(
       prog=__title__,
       description=__description__,
