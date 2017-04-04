@@ -25,8 +25,16 @@ setup(
     },
     license=about['__license__'],
     classifiers=[
+        'Development Status :: 4 - Beta',
+        'Environment :: Console',
+        'License :: OSI Approved :: Apache Software License',
+        'Natural Language :: Japanese',
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3 :: Only',
         'Programming Language :: Python :: Implementation :: CPython',
+        'Topic :: Games/Entertainment :: Role-Playing',
+        'Topic :: Text Processing',
+        'Topic :: Text Processing :: Filters',
     ])
