@@ -9,6 +9,8 @@
 
 :jp: Currently, it only supports to generate Japanese aliases.
 
+Elona 公式サイトにて、[ブラウザから Regalias で遊べる Web アプリ](http://ylvania.org/jp/letlafox)が公開されました。Big thanks to Noa!
+
 **Example**
 
 ```sh
