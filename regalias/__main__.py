@@ -12,6 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+from locale import getdefaultlocale
 from argparse import ArgumentParser
 
 from .about import __title__, __version__, __description__
@@ -19,6 +20,8 @@ from .generate_japanese_alias import generate_japanese_alias
 
 
 def main():
+  default_language = getdefaultlocale()[0].split('_')[0]
+
   argparser = ArgumentParser(
       prog=__title__,
       description=__description__,
@@ -28,10 +31,18 @@ def main():
       action='version',
       version='%(prog)s version {version}'.format(version=__version__))
   argparser.add_argument('name', nargs='?', help='seed of alias')
+  argparser.add_argument(
+      '--language',
+      nargs='?',
+      default=default_language,
+      const=default_language,
+      choices=['ja', 'zh'],
+      help='select the language of alias'
+  )
 
   args = argparser.parse_args()
 
-  alias = generate_japanese_alias(args.name)
+  alias = generate_japanese_alias(args.language, args.name)
   if args.name is not None:
     print(alias, args.name)
   else:

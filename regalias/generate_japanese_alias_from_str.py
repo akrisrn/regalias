@@ -17,7 +17,7 @@ from random import Random
 from .generate_japanese_alias_from_rng import generate_japanese_alias_from_rng
 
 
-def generate_japanese_alias_from_str(str):
+def generate_japanese_alias_from_str(language, str):
   rng = Random(str)
 
-  return generate_japanese_alias_from_rng(rng)
+  return generate_japanese_alias_from_rng(language, rng)

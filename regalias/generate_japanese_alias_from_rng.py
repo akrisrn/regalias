@@ -12,10 +12,16 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from ._ndata import ndata
 
 
-def generate_japanese_alias_from_rng(rng):
+def generate_japanese_alias_from_rng(language, rng):
+  if language == 'ja':
+    from ._ndata import ndata_ja as ndata
+    aux = ['の', '・オブ・', '・', 'ザ・']
+  elif language == 'zh':
+    from ._ndata import ndata_zh as ndata
+    aux = ['之', '于', '', '']
+
   columns_length = len(ndata)
 
   # See: http://elona.wikiwiki.jp/?%3A%B2%F2%C0%CF%2F%A5%A2%A5%A4%A5%C6%A5%E0#w25458e3
@@ -35,7 +41,7 @@ def generate_japanese_alias_from_rng(rng):
         head_row_index = 10
         alias = ndata[head_column_index][head_row_index]
       else:
-        alias = alias + 'の'
+        alias = alias + aux[0]
     elif head_row_index in (10, 11):
       r25 = rng.randint(1, 25)
       if 1 <= r25 <= 5:
@@ -47,13 +53,13 @@ def generate_japanese_alias_from_rng(rng):
           continue
 
         if 1 == rng.randint(1, 2):
-          alias = alias + 'の'
+          alias = alias + aux[0]
       elif 6 <= r25 <= 9:
-        alias = alias + '・オブ・'
+        alias = alias + aux[1]
       elif 10 <= r25 <= 13:
-        alias = alias + '・'
+        alias = alias + aux[2]
       elif 14 <= r25 <= 17:
-        return 'ザ・' + alias
+        return aux[3] + alias
 
     # ja: 3. 末尾文字決定
     for _ in range(100):
