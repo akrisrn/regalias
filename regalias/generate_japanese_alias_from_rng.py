@@ -21,6 +21,9 @@ def generate_japanese_alias_from_rng(language, rng):
   elif language == 'zh':
     from ._ndata import ndata_zh as ndata
     aux = ['之', '于', '', '']
+  elif language == 'en':
+    from ._ndata import ndata_en as ndata
+    aux = [' ', ' of ', ' ', 'The ']
 
   columns_length = len(ndata)
 

@@ -20,7 +20,10 @@ from .generate_japanese_alias import generate_japanese_alias
 
 
 def main():
+  language_choices = ['ja', 'zh', 'en']
   default_language = getdefaultlocale()[0].split('_')[0]
+  if default_language not in language_choices:
+    default_language = 'ja'
 
   argparser = ArgumentParser(
       prog=__title__,
@@ -36,7 +39,7 @@ def main():
       nargs='?',
       default=default_language,
       const=default_language,
-      choices=['ja', 'zh'],
+      choices=language_choices,
       help='select the language of alias'
   )
 
